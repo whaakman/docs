@@ -1,18 +1,18 @@
 ---
 type: docs
-title: "How-To: Deploy Recipes in your Radius Application"
+title: "Tutorial: Leverage Recipes in your Radius Application"
 linkTitle: "Recipes"
 description: "Learn how to use Radius Recipes within your application"
 weight: 500
 slug: "recipes"
-categories: "How-To"
+categories: "Tutorial"
 tags : ["recipes"]
 ---
 
-This how-to guide will teach you:
+This tutorial guide will teach you:
 
-* How to use “dev” Recipes in your Radius Environment to quickly run with containerized infrastructure.
-* How to deploy your own Recipes in your Radius Environment to leverage cloud resources.
+* How to use “local-dev” Recipes to quickly run with containerized infrastructure.
+* How to use your own cloud-infrastructure Recipes to deploy cloud infrastructure.
 
 ## Prerequisites
 
