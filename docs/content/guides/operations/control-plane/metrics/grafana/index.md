@@ -56,7 +56,7 @@ The [radius-resource-provider-dashboard.json](https://raw.githubusercontent.com/
    If you are Minikube user or want to disable persistent volume for development purpose, you can disable it by using the following command instead:
 
    ```bash
-   helm install grafana grafana/grafana -n radius-monitoring --set persistence.enabled=false
+   helm install grafana grafana/grafana -n radius-monitoring --set persistence.enabled=false --create-namespace
    ```
 
 1. Retrieve the admin password for Grafana login:
